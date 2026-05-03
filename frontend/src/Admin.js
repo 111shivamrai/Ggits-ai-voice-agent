@@ -21,8 +21,8 @@ export default function Admin() {
   const fetchData = async () => {
     try {
       const [callsRes, statsRes] = await Promise.all([
-        fetch('http://localhost:5002/api/admin/calls', { headers: { password: ADMIN_PASSWORD } }),
-        fetch('http://localhost:5002/api/admin/stats', { headers: { password: ADMIN_PASSWORD } })
+        fetch('https://ggits-backend.onrender.com/api/admin/calls', { headers: { password: ADMIN_PASSWORD } }),
+        fetch('https://ggits-backend.onrender.com/api/admin/stats', { headers: { password: ADMIN_PASSWORD } })
       ]);
       const callsData = await callsRes.json();
       const statsData = await statsRes.json();
@@ -116,10 +116,10 @@ export default function Admin() {
         </div>
 
         {/* Stats */}
-        {stats && (
+        {stats && stats.byType ? (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 20 }}>
             <div style={{ background: '#fff', borderRadius: 12, padding: 16, boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-              <div style={{ fontSize: 32, fontWeight: 800, color: '#1a237e', lineHeight: 1 }}>{stats.totalToday}</div>
+              <div style={{ fontSize: 32, fontWeight: 800, color: '#1a237e', lineHeight: 1 }}>{stats.totalToday || 0}</div>
               <div style={{ fontSize: 10, color: '#6b7280', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 4 }}>Total Today</div>
             </div>
             {stats.byType.map(item => (
@@ -129,7 +129,7 @@ export default function Admin() {
               </div>
             ))}
           </div>
-        )}
+        ) : null}
 
         {/* Table */}
         <div style={{ background: '#fff', borderRadius: 14, overflow: 'hidden', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>

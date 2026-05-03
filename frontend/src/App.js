@@ -1,6 +1,8 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
+import Admin from './Admin';
 
-function App() {
+function Landing() {
   const [phone, setPhone] = useState('');
   const [queryType, setQueryType] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -23,7 +25,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5002/api/calls/request', {
+      const response = await fetch('https://ggits-backend.onrender.com/api/calls/request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ phoneNumber: fullPhone, queryType })
@@ -47,21 +49,26 @@ function App() {
     <div className="min-h-screen" style={{ backgroundColor: '#f0f2f8' }}>
 
       {/* Top Bar */}
-      <div style={{ backgroundColor: '#1a237e' }} className="py-3 px-6 flex items-center gap-4">
-        <img
-          src="https://ggits.org/light-logo.png"
-          alt="GGITS Logo"
-          className="h-10 object-contain"
-          style={{ filter: 'brightness(0) invert(1)' }}
-        />
-        <div>
-          <p style={{ color: '#fff', fontWeight: 700, fontSize: 13 }}>
-            Gyan Ganga Institute of Technology & Sciences
-          </p>
-          <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: 11 }}>
-            Jabalpur, Madhya Pradesh · AICTE Approved
-          </p>
+      <div style={{ backgroundColor: '#1a237e' }} className="py-3 px-6 flex items-center gap-4 justify-between">
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+          <img
+            src="https://ggits.org/light-logo.png"
+            alt="GGITS Logo"
+            className="h-10 object-contain"
+            style={{ filter: 'brightness(0) invert(1)' }}
+          />
+          <div>
+            <p style={{ color: '#fff', fontWeight: 700, fontSize: 13 }}>
+              Gyan Ganga Institute of Technology & Sciences
+            </p>
+            <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: 11 }}>
+              Jabalpur, Madhya Pradesh · AICTE Approved
+            </p>
+          </div>
         </div>
+        <Link to="/admin" style={{ color: '#ffb74d', textDecoration: 'none', fontWeight: 700, fontSize: 12 }}>
+          🔐 Admin
+        </Link>
       </div>
 
       {/* Hero Strip */}
@@ -100,7 +107,6 @@ function App() {
       <div style={{ margin: '-12px 16px 0', background: '#fff', borderRadius: 16, padding: '24px 20px', boxShadow: '0 4px 20px rgba(0,0,0,0.1)' }}>
 
         {submitted ? (
-          /* Success State */
           <div style={{ textAlign: 'center', padding: '24px 0' }}>
             <div style={{
               width: 72, height: 72, background: 'linear-gradient(135deg,#1a237e,#283593)',
@@ -121,7 +127,8 @@ function App() {
                   fontSize: 12, color: '#1a237e', fontWeight: 600
                 }}>
                   <div style={{
-                    width: 22, height: 22, background: i === 0 ? '#1a237e' : i === 1 ? '#ff6f00' : '#9ca3af',
+                    width: 22, height: 22,
+                    background: i === 0 ? '#1a237e' : i === 1 ? '#ff6f00' : '#9ca3af',
                     color: '#fff', borderRadius: '50%', display: 'flex',
                     alignItems: 'center', justifyContent: 'center', fontSize: 10, fontWeight: 700, flexShrink: 0
                   }}>
@@ -140,7 +147,6 @@ function App() {
           </div>
         ) : (
           <>
-            {/* Phone Input */}
             <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, letterSpacing: 0.5, textTransform: 'uppercase' }}>
               Your Phone Number
             </label>
@@ -158,7 +164,6 @@ function App() {
               />
             </div>
 
-            {/* Dropdown */}
             <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, letterSpacing: 0.5, textTransform: 'uppercase' }}>
               Your Query Is About
             </label>
@@ -176,10 +181,8 @@ function App() {
               <option>Other</option>
             </select>
 
-            {/* Error */}
             {error && <p style={{ color: '#ef4444', fontSize: 12, marginBottom: 12 }}>{error}</p>}
 
-            {/* Button */}
             <button
               onClick={handleSubmit}
               disabled={loading}
@@ -201,11 +204,21 @@ function App() {
         )}
       </div>
 
-      {/* Footer */}
       <div style={{ textAlign: 'center', padding: '24px 16px', fontSize: 10, color: '#9ca3af' }}>
-        © 2024 Gyan Ganga Institute of Technology and Sciences · Jabalpur
+        © Gyan Ganga Institute of Technology and Sciences · Jabalpur
       </div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </Router>
   );
 }
 
