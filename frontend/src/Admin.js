@@ -21,8 +21,8 @@ export default function Admin() {
   const fetchData = async () => {
     try {
       const [callsRes, statsRes] = await Promise.all([
-        fetch('https://ggits-backend.onrender.com/api/admin/calls', { headers: { password: ADMIN_PASSWORD } }),
-        fetch('https://ggits-backend.onrender.com/api/admin/stats', { headers: { password: ADMIN_PASSWORD } })
+        fetch('http://localhost:5002/api/admin/calls', { headers: { password: ADMIN_PASSWORD } }),
+        fetch('http://localhost:5002/api/admin/stats', { headers: { password: ADMIN_PASSWORD } })
       ]);
       const callsData = await callsRes.json();
       const statsData = await statsRes.json();
@@ -31,6 +31,23 @@ export default function Admin() {
     } catch {
       setError('Failed to load data. Is the backend running?');
     }
+  };
+
+  const exportToCSV = () => {
+    const headers = ['Phone Number', 'Query Type', 'Status', 'Date & Time'];
+    const rows = calls.map(call => [
+      call.phoneNumber,
+      call.queryType,
+      call.callStatus,
+      new Date(call.createdAt).toLocaleString('en-IN')
+    ]);
+    const csv = [headers, ...rows].map(r => r.join(',')).join('\n');
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'GGITS_Calls_Report.csv';
+    a.click();
   };
 
   useEffect(() => {
@@ -80,16 +97,31 @@ export default function Admin() {
           <img src="https://ggits.org/light-logo.png" alt="GGITS" style={{ height: 30, filter: 'brightness(0) invert(1)' }} />
           <p style={{ fontSize: 9, color: 'rgba(255,255,255,0.4)', letterSpacing: 1, textTransform: 'uppercase', marginTop: 6 }}>Admin Panel</p>
         </div>
+
         {[['📊', 'Dashboard'], ['📋', 'All Calls'], ['📈', 'Analytics'], ['⬇️', 'Export Report']].map(([icon, label], i) => (
-          <div key={label} style={{
-            padding: '9px 12px', borderRadius: 8, fontSize: 12, fontWeight: 600,
-            color: i === 0 ? '#ffb74d' : 'rgba(255,255,255,0.55)',
-            background: i === 0 ? 'rgba(255,111,0,0.2)' : 'transparent',
-            cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8
-          }}>
+          <div
+            key={label}
+            onClick={() => {
+              if (label === 'Export Report') exportToCSV();
+              if (label === 'All Calls') fetchData();
+            }}
+            style={{
+              padding: '9px 12px',
+              borderRadius: 8,
+              fontSize: 12,
+              fontWeight: 600,
+              color: i === 0 ? '#ffb74d' : 'rgba(255,255,255,0.55)',
+              background: i === 0 ? 'rgba(255,111,0,0.2)' : 'transparent',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 8
+            }}
+          >
             {icon} {label}
           </div>
         ))}
+
         <div style={{ marginTop: 'auto' }}>
           <div
             onClick={() => setLoggedIn(false)}
@@ -100,12 +132,12 @@ export default function Admin() {
         </div>
       </div>
 
-      {/* Main */}
+      {/* Main Content */}
       <div style={{ flex: 1, padding: 24 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 }}>
           <div>
-            <h1 style={{ color: '#1a237e', fontWeight: 800, fontSize: 20 }}>Dashboard Overview</h1>
-            <p style={{ fontSize: 11, color: '#6b7280' }}>{new Date().toDateString()} · Live Data</p>
+            <h1 style={{ color: '#1a237e', fontWeight: 800, fontSize: 20, margin: 0 }}>Dashboard Overview</h1>
+            <p style={{ fontSize: 11, color: '#6b7280', margin: 0 }}>{new Date().toDateString()} · Live Data</p>
           </div>
           <button
             onClick={fetchData}
@@ -115,23 +147,23 @@ export default function Admin() {
           </button>
         </div>
 
-        {/* Stats */}
-        {stats && stats.byType ? (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 20 }}>
+        {/* Stats Cards */}
+        {stats && (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12, marginBottom: 20 }}>
             <div style={{ background: '#fff', borderRadius: 12, padding: 16, boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
-              <div style={{ fontSize: 32, fontWeight: 800, color: '#1a237e', lineHeight: 1 }}>{stats.totalToday || 0}</div>
+              <div style={{ fontSize: 32, fontWeight: 800, color: '#1a237e', lineHeight: 1 }}>{stats.totalToday}</div>
               <div style={{ fontSize: 10, color: '#6b7280', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 4 }}>Total Today</div>
             </div>
-            {stats.byType.map(item => (
+            {stats.byType && stats.byType.map(item => (
               <div key={item._id} style={{ background: '#fff', borderRadius: 12, padding: 16, boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
                 <div style={{ fontSize: 32, fontWeight: 800, color: '#ff6f00', lineHeight: 1 }}>{item.count}</div>
                 <div style={{ fontSize: 10, color: '#6b7280', fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 4 }}>{item._id}</div>
               </div>
             ))}
           </div>
-        ) : null}
+        )}
 
-        {/* Table */}
+        {/* Calls Table */}
         <div style={{ background: '#fff', borderRadius: 14, overflow: 'hidden', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '14px 18px', borderBottom: '1px solid #f3f4f6' }}>
             <div>
@@ -156,7 +188,10 @@ export default function Admin() {
                   <td style={{ padding: '11px 16px', color: '#374151' }}>{call.queryType}</td>
                   <td style={{ padding: '11px 16px' }}>
                     <span style={{
-                      padding: '3px 10px', borderRadius: 20, fontSize: 10, fontWeight: 700,
+                      padding: '3px 10px',
+                      borderRadius: 20,
+                      fontSize: 10,
+                      fontWeight: 700,
                       background: call.callStatus === 'calling' ? '#dcfce7' : '#fef9c3',
                       color: call.callStatus === 'calling' ? '#166534' : '#854d0e'
                     }}>
