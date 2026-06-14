@@ -56,8 +56,6 @@ router.post('/request', async (req, res) => {
 });
 
 // ─── BULK CALL ────────────────────────────────
-// Accepts: { numbers: [{name, phone}], queryType }
-// Max 15 numbers. Sends in batches of 10.
 router.post('/bulk', async (req, res) => {
   const { numbers, queryType } = req.body;
 
@@ -84,15 +82,13 @@ router.post('/bulk', async (req, res) => {
     }
   };
 
-  // Batch 1: first 10
   const batch1 = numbers.slice(0, 10);
   const batch1Results = await Promise.all(batch1.map(callOne));
   results.push(...batch1Results);
 
-  // Batch 2: remaining (max 5)
   const batch2 = numbers.slice(10);
   if (batch2.length > 0) {
-    await new Promise(r => setTimeout(r, 3000)); // wait 3 sec
+    await new Promise(r => setTimeout(r, 3000));
     const batch2Results = await Promise.all(batch2.map(callOne));
     results.push(...batch2Results);
   }
@@ -103,6 +99,82 @@ router.post('/bulk', async (req, res) => {
     message: `${successCount} of ${numbers.length} calls initiated`,
     results
   });
+});
+
+// ─── WEBHOOK: Vapi sends call data here when call ends ───
+router.post('/webhook', async (req, res) => {
+  try {
+    const message = req.body.message;
+
+    // DEBUG: Log everything Vapi sends us
+    console.log('========== WEBHOOK RECEIVED ==========');
+    console.log('Message Type:', message?.type);
+    console.log('FULL BODY:', JSON.stringify(req.body, null, 2));
+    console.log('=======================================');
+
+    if (!message) {
+      return res.status(200).json({ received: true });
+    }
+
+    if (message.type === 'end-of-call-report') {
+      const callId = message.call?.id;
+
+      // Try multiple possible locations for transcript
+      let transcript = '';
+      if (typeof message.transcript === 'string') {
+        transcript = message.transcript;
+      } else if (typeof message.artifact?.transcript === 'string') {
+        transcript = message.artifact.transcript;
+      } else if (Array.isArray(message.artifact?.messages)) {
+        transcript = message.artifact.messages
+          .filter(m => m.role === 'user' || m.role === 'bot' || m.role === 'assistant')
+          .map(m => {
+            const speaker = m.role === 'user' ? 'USER' : 'AI';
+            return `${speaker}: ${m.message || m.content || ''}`;
+          })
+          .join('\n');
+      } else if (Array.isArray(message.messages)) {
+        transcript = message.messages
+          .filter(m => m.role === 'user' || m.role === 'bot' || m.role === 'assistant')
+          .map(m => {
+            const speaker = m.role === 'user' ? 'USER' : 'AI';
+            return `${speaker}: ${m.message || m.content || ''}`;
+          })
+          .join('\n');
+      }
+
+      const durationSeconds = Math.round(
+        message.durationSeconds || message.duration || 0
+      );
+
+      console.log('Extracted Call ID:', callId);
+      console.log('Extracted Transcript Length:', transcript.length);
+      console.log('Extracted Duration:', durationSeconds);
+
+      if (callId) {
+        const updated = await Call.findOneAndUpdate(
+          { vapiCallId: callId },
+          {
+            transcript: transcript,
+            duration: durationSeconds,
+            callStatus: 'completed'
+          },
+          { new: true }
+        );
+
+        if (updated) {
+          console.log(`✅ Transcript saved for call ${callId} (${durationSeconds}s, ${transcript.length} chars)`);
+        } else {
+          console.log(`⚠️ No matching call found in DB for vapiCallId: ${callId}`);
+        }
+      }
+    }
+
+    res.status(200).json({ received: true });
+  } catch (error) {
+    console.error('Webhook error:', error.message);
+    res.status(200).json({ received: true });
+  }
 });
 
 module.exports = router;

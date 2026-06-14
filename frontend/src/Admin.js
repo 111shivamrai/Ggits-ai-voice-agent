@@ -9,6 +9,7 @@ export default function Admin() {
   const [calls, setCalls] = useState([]);
   const [stats, setStats] = useState(null);
   const [error, setError] = useState('');
+  const [selectedCall, setSelectedCall] = useState(null);
 
   const handleLogin = () => {
     if (password === ADMIN_PASSWORD) { setLoggedIn(true); setError(''); }
@@ -140,20 +141,20 @@ export default function Admin() {
         <div style={{ background: '#fff', borderRadius: 14, overflow: 'hidden', boxShadow: '0 2px 8px rgba(0,0,0,0.06)' }}>
           <div style={{ padding: '14px 18px', borderBottom: '1px solid #f3f4f6' }}>
             <div style={{ fontWeight: 800, fontSize: 14, color: '#1a237e' }}>All Call Records</div>
-            <div style={{ fontSize: 10, color: '#6b7280' }}>Newest first · Includes name, query, duration</div>
+            <div style={{ fontSize: 10, color: '#6b7280' }}>Newest first · Includes name, query, duration, conversation</div>
           </div>
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12 }}>
               <thead>
                 <tr style={{ background: '#1a237e' }}>
-                  {['Name', 'Phone Number', 'Query Type', 'Status', 'Duration', 'Source', 'Date & Time'].map(h => (
+                  {['Name', 'Phone Number', 'Query Type', 'Status', 'Duration', 'Source', 'Date & Time', 'Conversation'].map(h => (
                     <th key={h} style={{ padding: '10px 14px', textAlign: 'left', color: 'rgba(255,255,255,0.85)', fontWeight: 600, fontSize: 10, letterSpacing: 0.5, textTransform: 'uppercase', whiteSpace: 'nowrap' }}>{h}</th>
                   ))}
                 </tr>
               </thead>
               <tbody>
                 {calls.length === 0 ? (
-                  <tr><td colSpan={7} style={{ textAlign: 'center', padding: 32, color: '#9ca3af' }}>No calls yet</td></tr>
+                  <tr><td colSpan={8} style={{ textAlign: 'center', padding: 32, color: '#9ca3af' }}>No calls yet</td></tr>
                 ) : calls.map((call, i) => (
                   <tr key={call._id} style={{ background: i % 2 === 0 ? '#fff' : '#fafbff', borderBottom: '1px solid #f3f4f6' }}>
                     <td style={{ padding: '11px 14px', color: '#1a237e', fontWeight: 700 }}>{call.name || 'N/A'}</td>
@@ -173,6 +174,16 @@ export default function Admin() {
                       </span>
                     </td>
                     <td style={{ padding: '11px 14px', color: '#6b7280', whiteSpace: 'nowrap' }}>{new Date(call.createdAt).toLocaleString('en-IN')}</td>
+                    <td style={{ padding: '11px 14px' }}>
+                      {call.transcript ? (
+                        <button onClick={() => setSelectedCall(call)}
+                          style={{ padding: '5px 12px', background: '#1a237e', color: '#fff', border: 'none', borderRadius: 20, fontSize: 11, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', gap: 4, whiteSpace: 'nowrap' }}>
+                          💬 View Chat →
+                        </button>
+                      ) : (
+                        <span style={{ fontSize: 10, color: '#9ca3af' }}>—</span>
+                      )}
+                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -180,6 +191,55 @@ export default function Admin() {
           </div>
         </div>
       </div>
+
+      {/* ── CONVERSATION MODAL ── */}
+      {selectedCall && (
+        <div onClick={() => setSelectedCall(null)}
+          style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 }}>
+          <div onClick={e => e.stopPropagation()}
+            style={{ background: '#fff', borderRadius: 16, width: '90%', maxWidth: 600, maxHeight: '80vh', display: 'flex', flexDirection: 'column', overflow: 'hidden', boxShadow: '0 10px 40px rgba(0,0,0,0.2)' }}>
+
+            <div style={{ background: '#1a237e', padding: '18px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div>
+                <h3 style={{ color: '#fff', margin: 0, fontSize: 16, fontWeight: 800 }}>{selectedCall.name || 'N/A'}</h3>
+                <p style={{ color: 'rgba(255,255,255,0.7)', margin: '4px 0 0', fontSize: 12 }}>
+                  📞 {selectedCall.phoneNumber} &nbsp;|&nbsp; ⏱ {selectedCall.duration > 0 ? `${selectedCall.duration}s` : '—'} &nbsp;|&nbsp; 📋 {selectedCall.queryType}
+                </p>
+              </div>
+              <button onClick={() => setSelectedCall(null)}
+                style={{ background: 'rgba(255,255,255,0.15)', border: 'none', color: '#fff', width: 32, height: 32, borderRadius: '50%', cursor: 'pointer', fontSize: 16, fontWeight: 700 }}>✕</button>
+            </div>
+
+            <div style={{ padding: 24, overflowY: 'auto', flex: 1, background: '#f8f9fa' }}>
+              {selectedCall.transcript ? (
+                selectedCall.transcript.split('\n').filter(line => line.trim()).map((line, i) => {
+                  const isAI = line.toUpperCase().startsWith('AI:') || line.toUpperCase().startsWith('ASSISTANT:') || line.toUpperCase().startsWith('NAINA:') || line.toUpperCase().startsWith('BOT:');
+                  const cleanLine = line.replace(/^(AI|ASSISTANT|NAINA|BOT|USER|CUSTOMER):\s*/i, '');
+                  return (
+                    <div key={i} style={{ display: 'flex', justifyContent: isAI ? 'flex-start' : 'flex-end', marginBottom: 10 }}>
+                      <div style={{
+                        maxWidth: '75%', padding: '10px 14px', borderRadius: 14, fontSize: 13, lineHeight: 1.5,
+                        background: isAI ? '#e8eaf6' : '#1a237e',
+                        color: isAI ? '#1a237e' : '#fff',
+                        borderBottomLeftRadius: isAI ? 4 : 14,
+                        borderBottomRightRadius: isAI ? 14 : 4
+                      }}>
+                        <div style={{ fontSize: 10, fontWeight: 700, marginBottom: 3, opacity: 0.7 }}>
+                          {isAI ? '🤖 Naina (AI)' : '🧑 ' + (selectedCall.name || 'Caller')}
+                        </div>
+                        {cleanLine}
+                      </div>
+                    </div>
+                  );
+                })
+              ) : (
+                <p style={{ textAlign: 'center', color: '#9ca3af', fontSize: 13 }}>No transcript available for this call.</p>
+              )}
+            </div>
+
+          </div>
+        </div>
+      )}
     </div>
   );
 }

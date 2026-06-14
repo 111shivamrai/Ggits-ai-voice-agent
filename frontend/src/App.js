@@ -23,8 +23,6 @@ function App() {
   const [bulkError, setBulkError] = useState('');
   const fileRef = useRef(null);
 
-  // Parse bulk numbers from text
-  // Supports: "Name, Number" or just "Number"
   const parseNumbers = (text) => {
     return text.split('\n')
       .map(l => l.trim())
@@ -39,7 +37,6 @@ function App() {
       .filter(p => p.phone.length >= 10);
   };
 
-  // Handle CSV/TXT file upload
   const handleFile = (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -48,7 +45,6 @@ function App() {
     reader.readAsText(file);
   };
 
-  // Single call submit
   const handleSubmit = async () => {
     setError('');
     if (!name.trim()) { setError('Please enter your name.'); return; }
@@ -71,7 +67,6 @@ function App() {
     setLoading(false);
   };
 
-  // Bulk call submit
   const handleBulkCall = async () => {
     setBulkError('');
     if (!bulkText.trim()) { setBulkError('Please enter numbers or upload a file.'); return; }
@@ -96,7 +91,6 @@ function App() {
     setBulkLoading(false);
   };
 
-  // Success screen
   if (submitted) {
     return (
       <div style={{ backgroundColor: '#f0f2f8', minHeight: '100vh' }}>
@@ -156,7 +150,7 @@ function App() {
 
         {/* TABS */}
         <div style={{ display: 'flex', borderBottom: '2px solid #e5e7eb' }}>
-          {[['single', '📞 Single Call'], ['bulk', '📋 Bulk Call (Max 15)']].map(([key, label]) => (
+          {[['single', '📞 Single Call'], ['bulk', '📋 Bulk Call']].map(([key, label]) => (
             <button key={key} onClick={() => { setTab(key); setBulkResults(null); setBulkError(''); }}
               style={{ flex: 1, padding: '14px', background: tab === key ? '#e8eaf6' : '#fff', color: '#1a237e', border: 'none', fontWeight: 700, fontSize: 13, cursor: 'pointer', borderBottom: tab === key ? '3px solid #1a237e' : '3px solid transparent', fontFamily: 'inherit' }}>
               {label}
@@ -168,13 +162,11 @@ function App() {
         {tab === 'single' && (
           <div style={{ padding: '28px 28px' }}>
 
-            {/* Name */}
             <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 }}>Your Full Name</label>
             <input type="text" placeholder="Enter your full name" value={name}
               onChange={e => setName(e.target.value)}
               style={{ width: '100%', border: '2px solid #e5e7eb', borderRadius: 12, padding: '12px 14px', fontSize: 14, outline: 'none', fontFamily: 'inherit', marginBottom: 18, boxSizing: 'border-box' }} />
 
-            {/* Phone */}
             <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 }}>Your Phone Number</label>
             <div style={{ display: 'flex', border: '2px solid #e5e7eb', borderRadius: 12, overflow: 'hidden', marginBottom: 18 }}>
               <div style={{ background: '#e8eaf6', padding: '12px 14px', fontWeight: 700, color: '#1a237e', whiteSpace: 'nowrap', fontSize: 13 }}>🇮🇳 +91</div>
@@ -183,7 +175,6 @@ function App() {
                 style={{ flex: 1, padding: '12px 14px', fontSize: 14, border: 'none', outline: 'none', fontFamily: 'inherit' }} />
             </div>
 
-            {/* Query */}
             <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 }}>Your Query Is About</label>
             <select value={queryType} onChange={e => setQueryType(e.target.value)}
               style={{ width: '100%', padding: '12px 14px', border: '2px solid #e5e7eb', borderRadius: 12, fontSize: 13, marginBottom: 18, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
@@ -217,7 +208,6 @@ function App() {
           <div style={{ padding: '28px 28px' }}>
 
             {bulkResults ? (
-              /* Results screen */
               <div>
                 <h3 style={{ color: '#1a237e', fontWeight: 800, fontSize: 16, marginBottom: 6 }}>📊 Call Results</h3>
                 <p style={{ color: '#6b7280', fontSize: 13, marginBottom: 16 }}>{bulkResults.message}</p>
@@ -239,7 +229,6 @@ function App() {
               </div>
             ) : (
               <>
-                {/* Instructions box */}
                 <div style={{ background: '#e8eaf6', borderRadius: 10, padding: '12px 14px', marginBottom: 18 }}>
                   <p style={{ fontSize: 11, fontWeight: 700, color: '#1a237e', margin: '0 0 4px' }}>📌 HOW TO FORMAT:</p>
                   <p style={{ fontSize: 10, color: '#6b7280', margin: 0, lineHeight: 1.6 }}>
@@ -251,7 +240,6 @@ function App() {
                   </p>
                 </div>
 
-                {/* Text area */}
                 <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 }}>Type or Paste Numbers</label>
                 <textarea
                   value={bulkText}
@@ -261,7 +249,6 @@ function App() {
                   style={{ width: '100%', border: '2px solid #e5e7eb', borderRadius: 12, padding: '12px 14px', fontSize: 12, fontFamily: 'monospace', outline: 'none', resize: 'vertical', marginBottom: 12, boxSizing: 'border-box' }}
                 />
 
-                {/* Count preview */}
                 {bulkText.trim() && (
                   <div style={{ background: parsed.length > 15 ? '#fee2e2' : '#dcfce7', borderRadius: 8, padding: '7px 12px', marginBottom: 14 }}>
                     <p style={{ fontSize: 12, fontWeight: 700, color: parsed.length > 15 ? '#dc2626' : '#15803d', margin: 0 }}>
@@ -271,21 +258,18 @@ function App() {
                   </div>
                 )}
 
-                {/* OR divider */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
                   <div style={{ flex: 1, height: 1, background: '#e5e7eb' }} />
                   <span style={{ fontSize: 11, color: '#9ca3af', fontWeight: 700 }}>OR UPLOAD FILE</span>
                   <div style={{ flex: 1, height: 1, background: '#e5e7eb' }} />
                 </div>
 
-                {/* File upload */}
                 <input type="file" accept=".csv,.txt" ref={fileRef} onChange={handleFile} style={{ display: 'none' }} />
                 <button onClick={() => fileRef.current.click()}
                   style={{ width: '100%', padding: 12, border: '2px dashed #c5cae9', background: '#f8f9ff', borderRadius: 12, color: '#1a237e', fontWeight: 700, fontSize: 13, cursor: 'pointer', marginBottom: 18, fontFamily: 'inherit' }}>
                   📎 Upload CSV or TXT File
                 </button>
 
-                {/* Query type */}
                 <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: '#374151', marginBottom: 6, textTransform: 'uppercase', letterSpacing: 0.5 }}>Query Type For All Calls</label>
                 <select value={bulkQuery} onChange={e => setBulkQuery(e.target.value)}
                   style={{ width: '100%', padding: '12px 14px', border: '2px solid #e5e7eb', borderRadius: 12, fontSize: 13, marginBottom: 18, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
