@@ -35,6 +35,8 @@ const makeVapiCall = async (phoneNumber, name, queryType, source) => {
 
 // ─── SINGLE CALL ──────────────────────────────
 router.post('/request', async (req, res) => {
+  console.log('📥 RECEIVED REQUEST BODY:', JSON.stringify(req.body));
+
   const { phoneNumber, queryType, name } = req.body;
 
   if (!phoneNumber || !queryType) {
@@ -106,7 +108,6 @@ router.post('/webhook', async (req, res) => {
   try {
     const message = req.body.message;
 
-    // DEBUG: Log everything Vapi sends us
     console.log('========== WEBHOOK RECEIVED ==========');
     console.log('Message Type:', message?.type);
     console.log('FULL BODY:', JSON.stringify(req.body, null, 2));
@@ -119,7 +120,6 @@ router.post('/webhook', async (req, res) => {
     if (message.type === 'end-of-call-report') {
       const callId = message.call?.id;
 
-      // Try multiple possible locations for transcript
       let transcript = '';
       if (typeof message.transcript === 'string') {
         transcript = message.transcript;
@@ -174,6 +174,16 @@ router.post('/webhook', async (req, res) => {
   } catch (error) {
     console.error('Webhook error:', error.message);
     res.status(200).json({ received: true });
+  }
+});
+
+// ─── DEBUG: View raw call data directly ───
+router.get('/debug', async (req, res) => {
+  try {
+    const calls = await Call.find().sort({ createdAt: -1 }).limit(5);
+    res.json(calls);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
   }
 });
 
