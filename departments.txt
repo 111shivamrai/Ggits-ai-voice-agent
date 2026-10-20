@@ -1,0 +1,174 @@
+DEPARTMENTS AND FACULTY INFORMATION — GGITS (Updated from Official Website)
+=============================================================================
+
+GGITS has significantly expanded its departments compared to older data.
+It now offers 12+ B.Tech specializations across multiple departments.
+
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (CSE)
+------------------------------------------------------
+Status: NBA ACCREDITED
+Code: CS
+- Largest and most popular department
+- Offers multiple specializations under the CS umbrella:
+  → Pure CSE
+  → AIML (Artificial Intelligence and Machine Learning)
+  → Data Science
+  → CSBS (Computer Science and Business Systems) — TCS co-designed
+  → IoT+Cybersecurity+Blockchain
+  → CSD (Computer Science and Design)
+  → Robotics and Artificial Intelligence
+- Labs: Programming Lab, Data Structures Lab, AI/ML Lab,
+  Networking Lab, Cyber Security Lab, Cloud Computing Lab,
+  Web Development Lab, IoT Lab, Robotics Lab
+- AWS Tech Alliance Partner — students get AWS cloud access
+- IBM and Microsoft department collaborations
+- Oracle Academy programs
+- Coding Club active
+- Students participate in Smart India Hackathon, FossHack
+
+DEPARTMENT OF CSE — AIML (Artificial Intelligence and Machine Learning)
+------------------------------------------------------------------------
+Code: AL
+- One of the most in-demand branches in India right now
+- Curriculum: Python, Machine Learning, Deep Learning, Neural Networks,
+  Computer Vision, NLP, Reinforcement Learning, AI Ethics
+- Real-world project building from first year itself
+- EXAMPLE: First-year student Shivam Rai built a live AI Voice Agent
+  using Vapi.ai, Node.js, React, MongoDB — deployed on Vercel and Render
+- Career: AI Engineer, ML Engineer, Data Scientist, NLP Engineer,
+  AI Researcher, Computer Vision Engineer
+
+DEPARTMENT OF CSE — DATA SCIENCE
+----------------------------------
+Code: CD
+- Curriculum: Statistics, Python, R, Big Data, Data Visualization,
+  Business Intelligence, Data Engineering, SQL, NoSQL
+- Industry tools: Tableau, Power BI, Spark, Hadoop
+- Career: Data Analyst, Business Intelligence Analyst, Data Engineer
+
+DEPARTMENT OF CSE — CSBS (Computer Science and Business Systems)
+-----------------------------------------------------------------
+Code: CB
+- Co-designed with TCS (Tata Consultancy Services)
+- Unique: Combines computer science with business and management
+- Curriculum: Programming + ERP + Business Analytics + Management
+- TCS directly recruits from this program
+- Career: IT Consultant, Business Analyst, Product Manager, ERP Developer
+
+DEPARTMENT OF CSE — IoT, CYBER SECURITY AND BLOCKCHAIN
+-------------------------------------------------------
+Code: IS
+- One of the newest, most future-proof branches
+- Curriculum: IoT Device Programming, Networking, Cyber Security,
+  Ethical Hacking, Blockchain Development, Smart Contracts
+- Highly in demand by companies like Cisco, IBM, Palo Alto Networks
+- Career: Cyber Security Analyst, IoT Developer, Blockchain Developer,
+  Ethical Hacker, Security Architect
+
+DEPARTMENT OF COMPUTER SCIENCE AND DESIGN (CSD)
+-------------------------------------------------
+Code: SD
+- Combines computer science with UI/UX and product design
+- Curriculum: Figma, Adobe XD, User Research, Frontend Development,
+  Prototyping, Product Thinking, Human-Computer Interaction
+- Career: UI/UX Designer, Product Designer, Frontend Engineer,
+  Creative Technologist, Interaction Designer
+
+DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND ROBOTICS
+----------------------------------------------------
+Code: RA
+- Combines AI software with physical robotics hardware
+- Curriculum: Robot Operating System (ROS), Computer Vision,
+  Actuators and Sensors, Autonomous Systems, AI Planning
+- Career: Robotics Engineer, Automation Engineer, AI Systems Developer
+
+DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING (ECE)
+--------------------------------------------------------------
+Status: NBA ACCREDITED
+Code: EC
+- Labs: Electronics Lab, Communication Lab, VLSI Design Lab,
+  Embedded Systems Lab, Signal Processing Lab
+- Curriculum: Circuit Design, VLSI, Signal Processing, Embedded Systems, IoT
+- Career: Electronics Engineer, Telecom Engineer, VLSI Designer,
+  Embedded Developer
+
+DEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING (EX)
+----------------------------------------------------------
+Status: NBA ACCREDITED
+Code: EX
+- Labs: Electrical Machines Lab, Power Electronics Lab, Control Systems Lab
+- Career: Electrical Engineer, Power Systems Engineer, Automation Engineer
+
+DEPARTMENT OF ELECTRICAL ENGINEERING (EE)
+-------------------------------------------
+Status: NBA ACCREDITED
+Code: EE
+- PLC and SCADA training
+- Career: Power Engineer, Control Systems Engineer, Energy Auditor
+
+DEPARTMENT OF MECHANICAL ENGINEERING (ME)
+-------------------------------------------
+Status: NBA ACCREDITED
+Code: ME
+- Labs: Workshop (fitting, welding, carpentry), Thermodynamics Lab,
+  Fluid Mechanics Lab, CAD/CAM Lab, Manufacturing Lab
+- Robocon participation
+- Career: Mechanical Engineer, Design Engineer, Production Manager
+
+DEPARTMENT OF CIVIL ENGINEERING (CE)
+--------------------------------------
+Code: CE
+- Labs: Surveying Lab, Material Testing Lab, Geotechnical Lab,
+  Environmental Lab, Concrete Lab
+- AutoCAD and STAAD.Pro training
+- Career: Civil Engineer, Site Engineer, Project Manager
+
+DEPARTMENT OF APPLIED SCIENCES
+--------------------------------
+- Handles first-year foundation courses for all branches
+- Subjects: Engineering Mathematics, Physics, Chemistry, English Communication
+- Well-equipped Physics and Chemistry labs
+
+DEPARTMENT OF PHARMACY
+------------------------
+- B.Pharma (4 years) — Code: BPHA
+- D.Pharma (2 years) — Code: DPHA
+- Fully equipped pharmacy labs
+
+MANAGEMENT DEPARTMENT
+----------------------
+- MBA (2 Years)
+- MCA (2 Years)
+- Specializations: Marketing, Finance, Human Resource Management
+- Conference room, business communication lab
+- Guest lectures from industry professionals
+- ICICI Bank, HDFC Bank, Axis Bank recruit from MBA program
+
+POSTGRADUATE RESEARCH DEPARTMENTS (M.Tech)
+--------------------------------------------
+1. Energy Technology (EN)
+2. Structural Engineering (CE)
+3. IoT and Sensor Systems (IoT)
+4. Computer Science and Engineering (CSE)
+
+CENTRAL RESEARCH AND FACILITIES
+---------------------------------
+- Central Library: 30,000+ books, 100+ journals, e-library access
+- Computer Center: 300+ computers, high-speed internet
+- Seminar Halls: Projector and audio equipped
+- Genesis Incubation Center (gggic.in): Student startup support
+- Gyan E-Learning Platform (learn.ggits.org)
+- Moodle LMS (moodle.ggits.org)
+- IQAC Cell: Quality assurance
+- SERB-funded research in EE and EC departments
+
+NBA ACCREDITED BRANCHES (5 Total)
+-----------------------------------
+1. CSE — Computer Science Engineering
+2. ECE — Electronics and Communication Engineering
+3. EE  — Electrical Engineering
+4. ME  — Mechanical Engineering
+5. EX  — Electrical and Electronics Engineering
+
+NOTE: NBA accreditation = International quality standard recognized globally.
+Means these programs are benchmarked against the best engineering colleges worldwide.

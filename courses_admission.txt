@@ -1,0 +1,164 @@
+COURSES AND ADMISSION INFORMATION — GGITS (Updated from Official Website)
+===========================================================================
+
+UNDERGRADUATE PROGRAMS — B.Tech (4 Years)
+-------------------------------------------
+GGITS now offers 11+ B.Tech specializations (many more than older data showed):
+
+1. Computer Science and Engineering (CSE)
+   Code: CS | NBA Accredited: YES
+   Career Options: Software Developer, System Architect, AI Engineer, Data Analyst
+
+2. Computer Science and Design (CSD)
+   Code: SD | Emerging Branch
+   Career Options: UI/UX Designer, Product Designer, Frontend Engineer, Creative Technologist
+
+3. Artificial Intelligence and Machine Learning (CSE-AIML)
+   Code: AL | Most In-Demand Branch
+   Career Options: ML Engineer, AI Researcher, Data Scientist, NLP Engineer
+   (This is Shivam Rai's branch!)
+
+4. Data Science (CSE-DS)
+   Code: CD
+   Career Options: Data Analyst, Business Intelligence Analyst, Data Engineer
+
+5. Computer Science and Business Systems (CSBS)
+   Code: CB | TCS-Industry Aligned Program
+   Career Options: Business Analyst, IT Consultant, ERP Developer, Product Manager
+
+6. CSE - IoT and Cyber Security Including Blockchain Technology
+   Code: IS
+   Career Options: Cyber Security Analyst, IoT Developer, Blockchain Developer, Ethical Hacker
+
+7. Artificial Intelligence and Robotics (AIR)
+   Code: RA
+   Career Options: Robotics Engineer, Automation Engineer, AI Systems Developer
+
+8. Electronics and Communication Engineering (ECE)
+   Code: EC | NBA Accredited: YES
+   Career Options: Electronics Engineer, Telecom Engineer, VLSI Designer, Embedded Engineer
+
+9. Electrical and Electronics Engineering (EX)
+   Code: EX | NBA Accredited: YES
+   Career Options: Electrical Engineer, Power Systems Engineer, Automation Engineer
+
+10. Electrical Engineering (EE)
+    Code: EE | NBA Accredited: YES
+    Career Options: Power Engineer, Control Systems Engineer, Energy Auditor
+
+11. Civil Engineering (CE)
+    Code: CE
+    Career Options: Civil Engineer, Site Engineer, Project Manager, Structural Engineer
+
+12. Mechanical Engineering (ME)
+    Code: ME | NBA Accredited: YES
+    Career Options: Mechanical Engineer, Design Engineer, Production Manager, Robotics Engineer
+
+PHARMACY PROGRAMS
+------------------
+- D.Pharma (Diploma in Pharmacy) — Code: DPHA
+- B.Pharma (Bachelor of Pharmacy) — Code: BPHA
+
+POSTGRADUATE PROGRAMS — M.Tech (2 Years)
+------------------------------------------
+1. M.Tech Energy Technology — Code: EN
+2. M.Tech Structural Engineering — Code: CE
+3. M.Tech IoT and Sensor Systems — Code: IoT
+4. M.Tech Computer Science and Engineering — Code: CSE
+
+OTHER PROGRAMS
+---------------
+- MBA (Master of Business Administration) — 2 Years
+  Specializations: Marketing, Finance, Human Resource Management
+  Eligibility: Graduation in any discipline with minimum 50% marks
+
+- MCA (Master of Computer Applications) — 2 Years
+
+ADMISSION PROCESS
+------------------
+Step 1: Eligibility Check
+- For B.Tech: Class 12 with Physics, Chemistry, Mathematics
+- Minimum aggregate: 45% marks (40% for SC/ST candidates)
+- Valid JEE Main score mandatory (for RGPV-affiliated admission)
+- OR valid MP state DTE counselling rank
+
+Step 2: Apply
+- Register on MP DTE portal (dte.mponline.gov.in)
+- Fill application with personal, academic, and category details
+- Upload required documents and pay application fee online
+
+Step 3: Counselling
+- MP DTE conducts centralized online counselling
+- Seat allotment based on JEE Main rank and choices filled
+- Multiple rounds: Round 1, Round 2, Mop-Up Round
+
+Step 4: Document Verification and Admission
+- Report to college on allotment letter date
+- Submit original documents
+- Pay first semester fee to confirm admission
+
+IMPORTANT ADMISSION DATES (Typical Year)
+------------------------------------------
+- JEE Main Exam: January and April (NTA)
+- MP DTE Registration: May to June
+- Counselling Rounds: July to August
+- Classes Begin: August/September
+- Admission 2026-27 open: Apply at ggits.org/admissions/2026-27
+
+FEES STRUCTURE (Approximate — Check gyangangagroupfees.in for exact)
+----------------------------------------------------------------------
+- B.Tech Tuition Fee: Approx ₹60,000 to ₹80,000 per year
+  (New branches like AIML, Data Science, IoT may have slightly higher fees)
+- Hostel Fee (including food): Approx ₹40,000 to ₹60,000 per year
+- Development and other charges: As per RGPV norms
+
+SCHOLARSHIPS AVAILABLE
+------------------------
+Government Scholarships:
+- Mukhyamantri Medhavi Chhatra Yojana — FULL FEE WAIVER for eligible MP students
+- SC/ST/OBC/EWS government schemes — full or partial fee waiver
+- Minority scholarships
+
+College Scholarships:
+- Merit scholarship for top JEE rankers
+- Sports scholarships
+- Refer ggits.org/admissions/college-scholarship for details
+
+LATERAL ENTRY (For Diploma Holders)
+--------------------------------------
+- Direct entry into B.Tech Second Year
+- Eligibility: Diploma in Engineering with min 45% marks
+- Through MP DTE Lateral Entry Counselling
+- Seats: 10% supernumerary over approved intake
+
+DOCUMENTS REQUIRED
+--------------------
+1. Class 10 Marksheet and Certificate
+2. Class 12 Marksheet and Certificate
+3. JEE Main Scorecard
+4. MP DTE Allotment Letter
+5. Category Certificate (SC/ST/OBC/EWS if applicable)
+6. Domicile Certificate (for MP quota)
+7. Passport Size Photographs (8 copies)
+8. Aadhar Card
+9. Transfer Certificate from previous school/college
+10. Migration Certificate (if from another board)
+11. Character Certificate
+
+INTERESTING POINTS FOR AI AGENT
+---------------------------------
+Q: "GGITS offers AIML branch — how different is it from CSE?"
+A: AIML is a specialized branch focused entirely on Artificial Intelligence,
+   Machine Learning, Neural Networks, and Deep Learning. CSE is broader.
+   AIML students go into AI companies, research labs, and product companies.
+   Starting salaries for AIML are higher than traditional CSE in most cases.
+
+Q: "Is CSBS a good branch?"
+A: CSBS (Computer Science and Business Systems) is designed in collaboration
+   with TCS — yes, TCS itself designed the curriculum! Students get both
+   technical and business skills. Very useful for IT consulting and management roles.
+
+Q: "What is the IoT+Cybersecurity branch?"
+A: It is one of the newest, most in-demand branches. It covers Internet of Things
+   device development AND cyber security AND blockchain — three technologies in one.
+   Companies like Cisco, Palo Alto, and IBM hire from this specialization.

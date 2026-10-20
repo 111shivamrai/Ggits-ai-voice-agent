@@ -1,0 +1,218 @@
+PLACEMENTS AND CAMPUS LIFE — GGITS (Updated from Official Website)
+====================================================================
+
+PLACEMENT RECORD — OFFICIAL STATISTICS (from ggits.org/placement/statistics)
+------------------------------------------------------------------------------
+Overall Placement Ratio:  96%  ← (NOT 70-80% as previously stated — corrected!)
+Highest Package:          65 LPA  ← (year 2023 data from official website)
+Total Offers Made:        1500+ (cumulative across years)
+Total Recruiters:         85+
+
+YEAR-WISE PLACEMENT SUMMARY (Official Data)
+---------------------------------------------
+Year | Offers | Max Package (LPA) | Avg Package (LPA) | Companies
+-----|--------|--------------------|-------------------|----------
+2025 |  418   |       25 LPA       |      3.34 LPA      |    44
+2024 |  399   |       18 LPA       |      3.42 LPA      |    43
+2023 |  362   |       65 LPA       |      4.43 LPA      |    51
+2022 |  429   |       56 LPA       |      4.04 LPA      |    43
+
+KEY PLACEMENT FACTS
+--------------------
+- 96% placement ratio is one of the highest among private engineering colleges in MP
+- 65 LPA highest package in 2023 (international/premium company)
+- Average package has been consistently between 3.34 and 4.43 LPA
+- 418 offers in 2025 alone from 44 companies
+- Department-wise placement data available for CSE, AIML, CSBS, DS, IoT, ECE, EE, MECH, CIVIL, MCA, MBA
+
+TOP RECRUITERS (From Official Website — Confirmed Companies)
+-------------------------------------------------------------
+IT Giants:
+- TCS (Tata Consultancy Services)
+- Wipro
+- Infosys
+- Tech Mahindra
+- HCL Technologies
+- Mphasis
+- Persistent Systems
+- Amdocs
+- Capgemini
+- Accenture
+- Cognizant
+
+Product & Cloud Companies:
+- Reliance Jio
+- Tata Technologies
+
+Core Engineering:
+- L&T (Larsen and Toubro)
+- BHEL (Bharat Heavy Electricals Limited)
+- Essar Group
+- ETA Engineering Ltd
+- Bajaj Auto
+- Aditya Birla Group
+
+Banking and Finance:
+- HDFC Bank
+- ICICI Bank
+- Axis Bank (for MBA)
+
+EdTech:
+- Byju's
+- Vedantu
+
+Government and PSUs:
+- Various government PSUs and railways
+
+Special Achievements:
+- Alibaba Cloud contest: GGITS student won $3000 first prize (Rs 2.3 lakh)
+- Oracle Academy Cloud Developer Drive: Winners from GGITS
+- Multiple Smart India Hackathon participants and winners
+
+TRAINING AND PLACEMENT CELL
+-----------------------------
+- Dedicated Training and Placement Officer
+- Year-round placement preparation for final year students
+- Training covers:
+  * Aptitude and logical reasoning
+  * Verbal ability and communication
+  * Technical skills and coding
+  * Group Discussion preparation
+  * Personal Interview techniques
+  * Mock interview sessions with industry experts
+  * Resume writing workshops
+  * Soft skills and communication throughout the course
+- Online coding platforms: HackerRank, LeetCode encouraged
+- Skill Development programs (see ggits.org/academics/skill-development)
+
+INTERNSHIP OPPORTUNITIES
+--------------------------
+- Summer internships facilitated after 2nd and 3rd year
+- Students have interned at Wipro, Infosys, BHEL, and Jabalpur industries
+- Internship certificate adds value to final placement
+- Some internships convert to full-time job offers
+
+GENESIS INCUBATION CENTER
+---------------------------
+Website: gggic.in
+- Supports student startups
+- Mentorship by alumni entrepreneurs
+- Part of NITI Aayog ACIC project (Rs 2.5 crore grant with RDVV)
+- Students from GGITS have won national startup competitions
+- Entrepreneurship Development Cell (EDC) active
+
+CAMPUS LIFE
+-----------
+The GGITS campus is vibrant, green, and student-friendly, located near
+Bargi Hills and Tilwara Ghat — one of the most scenic spots near Jabalpur.
+
+ANNUAL EVENTS AND FESTS
+------------------------
+- Technomania: Annual technical festival
+  (coding competitions, robotics, paper presentations, technical quizzes)
+- Gyanotsav: Annual cultural fest
+  (music, dance, drama, fashion show, creative activities)
+- Annual Sports Meet: cricket, football, volleyball, basketball, athletics
+- Convocation Ceremony: Annual graduation event
+- FossHack 2026: Being organized by GGITS (open source hackathon)
+- IEEE ICICAI 2026: International AI conference hosted by GGITS
+- CSNT-2024: IEEE 13th International Conference (hosted by GGITS)
+
+STUDENT CLUBS AND SOCIETIES
+-----------------------------
+1. Technical Society
+   - Hackathons, seminars, coding sessions, technical events
+   - Brain-storming sessions and innovation workshops
+
+2. Cultural Society
+   - Gyanotsav, Tourism Day, Independence Day celebrations
+   - Teachers' Day, national cultural programmes
+
+3. Welfare Society
+   - Student well-being initiatives
+   - Personal development, academic success, community engagement
+
+4. Literature Society
+   - Debates, essay competitions, creative writing
+   - Philosophy, politics, and spirituality discussions
+
+5. Sports Society
+   - Annual sports competitions
+   - Cricket, football, volleyball, basketball, athletics, badminton
+
+6. Coding Club: Weekly contests, hackathons, competitive programming
+7. Robotics Club: Robocon participation and robotics competitions
+8. Photography Club: Campus events and exhibitions
+9. NSS (National Service Scheme): Community service
+10. NCC (National Cadet Corps): For interested students
+
+HOSTEL FACILITIES
+------------------
+Boys Hostel:
+- Multiple separate blocks with 2-3 students per room
+- Common room with TV
+- 24x7 security with warden on campus
+- Mess with home-style nutritious food
+- Wi-Fi connectivity in hostel
+- Laundry facility
+- Gym/recreation area
+
+Girls Hostel:
+- Dedicated ladies warden with 24x7 CCTV surveillance
+- Strict entry/exit protocols for complete safety
+- All modern amenities matching boys hostel
+- Completely secure and professionally managed
+
+Hostel Fee: Approximately ₹40,000 to ₹60,000 per year (food included)
+
+FOOD AND CAFETERIA
+-------------------
+- College canteen: breakfast, lunch, and dinner
+- Affordable rates for students
+- Hygienic kitchen with regular health inspections
+- Snack stalls available on campus
+- Special menu on festival days
+
+TRANSPORTATION
+---------------
+- College buses from key Jabalpur locations:
+  Napier Town, Gorakhpur, Adhartal, Medical, Vijay Nagar, and more
+- Bus pass at subsidized rates
+
+MEDICAL FACILITY
+-----------------
+- First aid room with trained resident nurse
+- Doctor visits campus regularly
+- Nearby: Victoria Hospital, Netaji Subhash Chandra Bose Medical College
+
+SPORTS FACILITIES
+------------------
+- Cricket ground with practice nets
+- Football ground
+- Volleyball court
+- Basketball court
+- Badminton courts (indoor)
+- Table tennis
+- Gymnasium with equipment
+
+INTERESTING QUESTIONS THE AI AGENT CAN ANSWER IMPRESSIVELY
+------------------------------------------------------------
+Q: "What is GGITS' highest salary package?"
+A: Our highest package is 65 LPA — that was in 2023. In 2022 it was 56 LPA.
+   Companies like Texas Instruments, product companies, and international firms
+   have placed our students at these packages.
+
+Q: "Is 96% placement rate real or just on paper?"
+A: It's official and verified data published on our website with year-wise
+   breakdown. You can see 418 offers from 44 companies in 2025 alone.
+   Names like TCS, Wipro, Infosys, Tech Mahindra — all official and documented.
+
+Q: "What does GGITS do for students who don't get placed?"
+A: GGITS runs year-round training through the T&P cell.
+   Students who need extra support get additional interview coaching,
+   aptitude training, and are connected with companies in Jabalpur itself.
+
+Q: "Has any GGITS student won any national competition?"
+A: Yes! A CSE student won $3000 (₹2.3 lakh) in the Alibaba Cloud global contest.
+   Multiple students have won in Oracle Academy drives.
+   GGITS hosts IEEE international conferences — showing our research quality.

@@ -1,0 +1,92 @@
+FAQ AND OBJECTION HANDLING GUIDE
+==================================
+(This file helps the voice agent answer common questions and handle hesitations professionally)
+
+FREQUENTLY ASKED QUESTIONS
+============================
+
+Q: What is GGITS and where is it located?
+A: Gyan Ganga Institute of Technology and Science, commonly known as GGITS, is a top engineering college in Jabalpur, Madhya Pradesh. It is affiliated to RGPV Bhopal and approved by AICTE.
+
+Q: Which courses are available at GGITS?
+A: We offer B.Tech in 6 branches - Computer Science, Electronics and Communication, Mechanical, Civil, Electrical, and Information Technology. We also offer MBA and select M.Tech programs.
+
+Q: What is the eligibility for B.Tech admission?
+A: You need to have passed Class 12 with Physics, Chemistry, and Mathematics with at least 45 percent marks. You also need a valid JEE Main score. SC and ST candidates need 40 percent marks.
+
+Q: How do I take admission in GGITS?
+A: Admission is done through MP DTE centralized counselling. You register on the DTE portal, fill your preferences including GGITS, and get a seat based on your JEE Main rank. After seat allotment, you report to our college with documents to confirm admission.
+
+Q: What is the fee structure?
+A: The annual tuition fee is approximately 60,000 to 80,000 rupees per year. Government scholarships are available for SC, ST, OBC, and EWS category students which can significantly reduce or cover the fee. We suggest you contact our admission helpline for the exact updated fee.
+
+Q: Is hostel facility available?
+A: Yes, we have separate hostels for boys and girls with modern facilities. The annual hostel fee including food is approximately 40,000 to 60,000 rupees. The hostels are safe, secured with CCTV, and managed by dedicated wardens.
+
+Q: What is the placement record of GGITS?
+A: Our placement rate is between 70 to 80 percent for eligible students. Companies like TCS, Wipro, Infosys, HCL, Capgemini, and L&T recruit from our campus. The highest package goes up to 10-12 LPA and the average package is 3.5 to 5 LPA.
+
+Q: What is the college timing?
+A: College classes run from 9 AM to 5 PM, Monday to Saturday.
+
+Q: Is the college AICTE approved?
+A: Yes, GGITS is fully approved by AICTE, New Delhi, and affiliated to RGPV Bhopal. It is recognized by the Government of Madhya Pradesh.
+
+Q: Are scholarships available?
+A: Yes. Government scholarships under schemes like Mukhyamantri Medhavi Chhatra Yojana cover the full tuition fee for eligible MP domicile students. SC, ST, OBC, and EWS students get scholarships as per government norms. Merit scholarships are also available for top rankers.
+
+Q: What extracurricular activities are available?
+A: We have coding clubs, robotics club, cultural fest, annual sports meet, NSS, NCC, technical festivals, and many student competitions. College believes in overall development of students.
+
+Q: Is transportation available from Jabalpur city?
+A: Yes, college buses run from major areas of Jabalpur including Napier Town, Gorakhpur, Medical, Vijay Nagar, and other localities. Contact the college for the updated bus route list.
+
+Q: Can I visit the campus before taking admission?
+A: Absolutely. We encourage interested students and parents to visit the campus. Please call our admission helpline to schedule a campus visit. Our team will be happy to show you around.
+
+Q: Does the college have Wi-Fi?
+A: Yes, the entire campus has 24x7 high-speed Wi-Fi connectivity. Students can access the internet from classrooms, labs, library, and hostels.
+
+Q: What are the library facilities?
+A: Our central library has over 30,000 books, 100 plus national and international journals, and access to digital/e-library resources. The library is open during college hours and study rooms are available.
+
+---
+
+OBJECTION HANDLING SCRIPT
+===========================
+(How the voice agent should respond to common hesitations from parents and students)
+
+OBJECTION 1: "The fee is too high for us."
+Response: "I completely understand your concern about fees. The good news is that government scholarships are available for eligible students under the Mukhyamantri Medhavi Chhatra Yojana which can cover the entire tuition fee. SC, ST, OBC, and EWS students also get full or partial fee waivers. Many students study here at very little or no cost. Can I ask which category you belong to? I can help you understand what scholarship support you may qualify for."
+
+OBJECTION 2: "We are not sure about placements from this college."
+Response: "That is a very valid concern. I want to share that GGITS has a dedicated Training and Placement Cell that works year-round. Companies like TCS, Wipro, Infosys, HCL, Capgemini, and many others recruit from our campus every year. Our placement rate is between 70 to 80 percent and some students have received packages up to 10 to 12 LPA. We also provide pre-placement training, mock interviews, and aptitude coaching free of cost to students. Your child's success is our priority."
+
+OBJECTION 3: "We are thinking of a college in a bigger city like Bhopal or Indore."
+Response: "That is a fair thought. What I can tell you is that GGITS offers the same RGPV affiliation and AICTE approval as colleges in Bhopal and Indore. The advantage here in Jabalpur is that the cost of living is much lower, making overall education more affordable. Our faculty, labs, and infrastructure are comparable to the best colleges in the state. Many students prefer GGITS because of the personal attention they receive and the strong community environment."
+
+OBJECTION 4: "My child wants to go to a government college."
+Response: "That is completely natural, government colleges are a great choice. However, seats in government colleges are very limited and competition is very high. If your child does not get a government seat, GGITS is one of the best private alternatives in the region. With RGPV affiliation, AICTE approval, and strong placement support, the degree from GGITS holds the same value in the job market. And with scholarship support, the fee can be very affordable."
+
+OBJECTION 5: "We need time to think and discuss with family."
+Response: "Of course, this is a very important decision and it is good to discuss with family. I would just like to mention that admission seats are limited and counselling happens in rounds. Waiting too long may mean preferred branches fill up. I can share our admission helpline number so your family can call anytime with questions. Would it be okay if I called you back in two or three days to answer any further questions?"
+
+OBJECTION 6: "Is the college safe for girls?"
+Response: "Absolutely, student safety is our top priority. The girls hostel has a dedicated ladies warden, 24x7 CCTV surveillance, and strict entry and exit protocols. The entire campus is under CCTV monitoring. The college environment is respectful and professional. We have a large number of girl students studying here and their safety and comfort is always maintained."
+
+OBJECTION 7: "We have not heard much about this college."
+Response: "GGITS has been consistently producing quality engineers since 2007. We may not be as loudly marketed as some colleges but our results speak for themselves. Over 70 percent of our students get placed in reputed companies. Our alumni are working in Infosys, Wipro, TCS, and many more. I would warmly invite you to visit our campus so you can see the facilities and meet our faculty yourself. First-hand experience will give you the best picture."
+
+---
+
+CALL CLOSING SCRIPTS
+======================
+
+If student is interested:
+"Wonderful! I am glad you are interested in GGITS. The next step is to register on the MP DTE portal if you have not done so already and fill GGITS as one of your top preferences. If you have any questions during the process, please feel free to call our admission helpline. We are here to help you every step of the way. All the best for your admission!"
+
+If student wants to think:
+"Absolutely, take your time. I will note your details and our team will follow up with you shortly. In the meantime, if any questions come to mind, please do not hesitate to call us. Thank you so much for your time today and we hope to welcome you to the GGITS family soon!"
+
+If student is not interested:
+"No problem at all. I appreciate you taking the time to speak with me. If your plans change or you know someone who is looking for engineering admission in Jabalpur, do keep GGITS in mind. Thank you and have a great day!"

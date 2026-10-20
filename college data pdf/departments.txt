@@ -1,0 +1,81 @@
+DEPARTMENTS AND FACULTY INFORMATION
+=====================================
+
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING (CSE)
+------------------------------------------------------
+- Largest department in the college
+- Faculty Count: 20+ experienced faculty members
+- Labs: Programming Lab, Data Structures Lab, AI/ML Lab, Networking Lab, Cyber Security Lab
+- Special Features: Industry-aligned curriculum, coding clubs, hackathons
+- HOD: Contact college admin for current HOD details
+- Notable Activities: CodeFest, Tech Symposium, IBM and Microsoft collaborations
+
+DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING (EC)
+-------------------------------------------------------------
+- Faculty Count: 15+ faculty members
+- Labs: Electronics Lab, Communication Lab, VLSI Design Lab, Embedded Systems Lab, Signal Processing Lab
+- Special Features: IoT projects, embedded system workshops
+- HOD: Contact college admin for current HOD details
+- Notable Activities: Circuit design competitions, industry visits
+
+DEPARTMENT OF MECHANICAL ENGINEERING (ME)
+-------------------------------------------
+- Faculty Count: 15+ faculty members
+- Labs: Workshop (fitting, welding, carpentry), Thermodynamics Lab, Fluid Mechanics Lab, CAD/CAM Lab, Manufacturing Lab
+- Special Features: Well-equipped workshop with modern machines
+- HOD: Contact college admin for current HOD details
+- Notable Activities: Robocon participation, industry internships
+
+DEPARTMENT OF CIVIL ENGINEERING (CE)
+--------------------------------------
+- Faculty Count: 12+ faculty members
+- Labs: Surveying Lab, Material Testing Lab, Geotechnical Lab, Environmental Lab, Concrete Lab
+- Special Features: AutoCAD and STAAD.Pro training
+- HOD: Contact college admin for current HOD details
+- Notable Activities: Site visits, design competitions
+
+DEPARTMENT OF ELECTRICAL ENGINEERING (EE)
+-------------------------------------------
+- Faculty Count: 12+ faculty members
+- Labs: Electrical Machines Lab, Power Electronics Lab, Control Systems Lab, Measurements Lab
+- Special Features: PLC and SCADA training
+- HOD: Contact college admin for current HOD details
+- Notable Activities: Energy auditing projects, industry collaboration
+
+DEPARTMENT OF INFORMATION TECHNOLOGY (IT)
+-------------------------------------------
+- Faculty Count: 12+ faculty members
+- Labs: Web Development Lab, Cyber Security Lab, Cloud Computing Lab
+- Special Features: Industry-ready curriculum, startup support
+- HOD: Contact college admin for current HOD details
+- Notable Activities: App development competitions, cybersecurity workshops
+
+DEPARTMENT OF APPLIED SCIENCES (BASIC SCIENCES)
+-------------------------------------------------
+- Handles first-year courses for all branches
+- Subjects: Engineering Mathematics, Physics, Chemistry, English Communication
+- Faculty Count: 15+ faculty members
+- Well-equipped Physics and Chemistry Labs
+
+MANAGEMENT DEPARTMENT (MBA)
+-----------------------------
+- Faculty Count: 10+ faculty members
+- Facilities: Business communication lab, conference room, case study library
+- Industry connections for live projects and internships
+- Guest lectures from industry professionals
+
+FACULTY QUALIFICATION
+----------------------
+- Most faculty members hold M.Tech/M.E. degrees in their respective fields
+- Several faculty members are pursuing or have completed Ph.D.
+- Faculty regularly attend national and international conferences
+- Faculty members involved in research and consultancy projects
+- Regular faculty development programs and training workshops
+
+CENTRAL FACILITIES AVAILABLE TO ALL DEPARTMENTS
+-------------------------------------------------
+- Central Library: 30,000+ books, 100+ journals, e-library access
+- Computer Center: 300+ computers with high-speed internet
+- Seminar Halls: Equipped with projector and audio systems
+- Central Instrumentation Lab: For research and advanced experiments
+- Examination Cell: Manages internal and university examinations

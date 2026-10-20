@@ -1,0 +1,212 @@
+FAQ AND OBJECTION HANDLING — GGITS (Updated with Real Website Data)
+======================================================================
+
+FREQUENTLY ASKED QUESTIONS
+============================
+
+Q: What is GGITS and where is it located?
+A: Gyan Ganga Institute of Technology and Sciences, known as GGITS,
+   is one of the top engineering colleges in Central India.
+   Located at Tilwara Ghat Road, Near Bargi Hills, Jabalpur, Madhya Pradesh.
+   It is an Autonomous Institution, affiliated to RGPV Bhopal and approved by AICTE.
+   Established in 2003, with over 20 years of excellence in engineering education.
+
+Q: Is GGITS government or private?
+A: GGITS is a private institution but has Autonomous status — which is actually
+   a big deal. Autonomous status means GGITS can design its own curriculum,
+   conduct its own exams, and set its own standards — similar to an IIT or NIT in
+   terms of academic independence. It is also NBA accredited in 5 branches,
+   which is the same quality standard as top-tier engineering colleges.
+
+Q: Which courses are available at GGITS?
+A: We offer B.Tech in 12 specializations including CSE, AIML, Data Science,
+   IoT+Cybersecurity+Blockchain, CSBS (TCS collaboration), Robotics+AI,
+   CSD (Computer Science & Design), ECE, EE, ME, CE, and EX.
+   We also offer M.Tech in 4 specializations, MBA, MCA, B.Pharma, D.Pharma.
+
+Q: What is the placement record of GGITS?
+A: Our official placement ratio is 96% — one of the best in MP.
+   Year-wise highlights:
+   2025: 418 offers, 25 LPA highest, 3.34 LPA average, 44 companies
+   2024: 399 offers, 18 LPA highest, 3.42 LPA average, 43 companies
+   2023: 362 offers, 65 LPA highest, 4.43 LPA average, 51 companies
+   2022: 429 offers, 56 LPA highest, 4.04 LPA average, 43 companies
+   Total 1500+ offers made. 85+ recruiters including TCS, Wipro, Infosys,
+   Tech Mahindra, Persistent, Amdocs, Reliance Jio, Tata Technologies, L&T.
+
+Q: What is the eligibility for B.Tech admission?
+A: Class 12 with Physics, Chemistry, and Mathematics with at least 45%
+   (40% for SC/ST). Valid JEE Main score required.
+   Apply through MP DTE portal. Counselling in July-August.
+
+Q: How do I take admission in GGITS?
+A: Register on the MP DTE portal (dte.mponline.gov.in), fill your choices
+   with GGITS as preference, get seat allotted based on JEE rank, then
+   report to college with documents to confirm admission.
+   Direct apply also at ggits.org/admissions/2026-27.
+
+Q: What is the fee structure?
+A: Approximate annual tuition fee is ₹60,000 to ₹80,000 per year.
+   Government scholarships under Mukhyamantri Medhavi Chhatra Yojana can
+   cover the FULL fee for eligible MP students. SC/ST/OBC/EWS also get
+   significant fee waivers. For exact fees check gyangangagroupfees.in.
+
+Q: Is hostel facility available?
+A: Yes — separate boys and girls hostels with 24x7 security, CCTV,
+   Wi-Fi, mess food, warden on campus. Approximately ₹40,000-₹60,000/year
+   including food. Girls hostel has dedicated ladies warden and strict
+   entry/exit protocols for complete safety.
+
+Q: Does GGITS have an NBA accreditation?
+A: Yes! 5 branches are NBA accredited: CSE, ECE, EE, ME, and EX.
+   NBA (National Board of Accreditation) accreditation means these
+   programs meet international quality standards. This makes GGITS degrees
+   globally recognized and valued by top employers.
+
+Q: Is GGITS an Autonomous college?
+A: Yes! GGITS has Autonomous status — the highest academic recognition
+   for an affiliated college. It means GGITS designs its own curriculum,
+   sets its own exam standards, and keeps teaching methods industry-aligned.
+   This is why GGITS education quality matches NIT-level colleges.
+
+Q: Does GGITS have AIML branch?
+A: Yes! B.Tech in Artificial Intelligence and Machine Learning (AIML)
+   is one of the most popular branches. Students learn Python, Deep Learning,
+   Natural Networks, Computer Vision, and NLP. Career scope is outstanding —
+   AI Engineer, ML Engineer, Data Scientist, Research roles at top companies.
+
+Q: What is CSBS and is it good?
+A: Computer Science and Business Systems (CSBS) is a branch designed with
+   TCS — yes, the curriculum is co-designed by TCS itself!
+   It combines programming skills with business and management knowledge.
+   Students become IT consultants, business analysts, product managers.
+   TCS directly recruits from this program.
+
+Q: What is the IoT+Cybersecurity branch?
+A: Full name: CSE — IoT and Cyber Security Including Blockchain Technology.
+   One of the most in-demand branches today. You learn to build smart devices
+   (IoT), protect systems (Cyber Security), and build decentralized apps
+   (Blockchain). Cisco, IBM, Palo Alto, and startups hire from this branch.
+
+Q: Does GGITS have a startup incubation center?
+A: Yes! GGITS has the Genesis Incubation Center (gggic.in) — funded partly
+   by NITI Aayog with a ₹2.5 crore grant. Student startups get mentorship,
+   funding support, and guidance. This is real entrepreneurship support.
+
+Q: Is GGITS an AWS partner?
+A: Yes! GGITS is an AWS Tech Alliance Partner Institute — meaning students
+   get access to AWS cloud resources, certifications, and training.
+   This is a huge advantage for CSE/AIML/Data Science students.
+
+Q: What is the college's NIRF ranking?
+A: GGITS secured a rank in the band of 151-300 in NIRF Innovation Category
+   2023. NIRF is the government's official ranking system for colleges.
+   Being in the NIRF list itself is a mark of quality and transparency.
+
+Q: What are the college timings?
+A: Classes run 9 AM to 5 PM, Monday to Saturday.
+   Library and labs open during college hours.
+   24x7 hostel access for residents.
+
+Q: Does college have Wi-Fi?
+A: Yes — 24x7 high-speed Wi-Fi across the entire campus including
+   classrooms, labs, library, and hostels.
+
+Q: What international conferences has GGITS hosted?
+A: GGITS hosted the IEEE 13th International Conference on Communication
+   Systems and Network Technologies (CSNT-2024) — a flagship IEEE Madhya
+   Pradesh Section event. GGITS is also organizing IEEE ICICAI 2026 —
+   an international AI conference. This shows GGITS' research credentials.
+
+Q: Can I contact GGITS by WhatsApp?
+A: Yes! WhatsApp at +91 9993222712. Toll-free: 18008898050.
+   Email: info@ggits.org. Response within same working day.
+
+---
+
+OBJECTION HANDLING SCRIPT
+===========================
+
+OBJECTION 1: "The fee is too high."
+Response: "I understand completely. But here's the good news — GGITS has
+multiple scholarship options. The Mukhyamantri Medhavi Chhatra Yojana can
+cover your FULL tuition fee if you're from Madhya Pradesh and meet the criteria.
+SC/ST/OBC/EWS students get government waivers too. Many students here study at
+zero or very low cost. Can I ask which category you belong to? I can tell you
+exactly what you qualify for."
+
+OBJECTION 2: "We are not sure about placements."
+Response: "That is a very fair question. Let me share official data from our
+website. In 2025 alone, 418 students got placed in 44 companies. Our placement
+ratio is 96%. Highest package was 65 LPA in 2023. Companies like TCS, Wipro,
+Infosys, Tech Mahindra, Persistent, Amdocs, Reliance Jio — all recruit from
+GGITS. We have the T&P cell working round the year. And GGITS is an Autonomous,
+NBA-accredited institution — employers recognize our quality."
+
+OBJECTION 3: "We prefer a college in Bhopal or Indore."
+Response: "That's understandable. But here is what many people don't realize —
+GGITS has the same RGPV affiliation and AICTE approval. Additionally, GGITS is
+Autonomous and NBA-accredited in 5 branches — most colleges in Bhopal or Indore
+don't have that. Cost of living in Jabalpur is lower, so the total investment
+is less. And our 96% placement rate and 65 LPA highest package speak for themselves.
+I would invite you to visit the campus once before deciding."
+
+OBJECTION 4: "My child wants a government college."
+Response: "That's a great aspiration. Government seats are very limited and
+competition is very high. If your child doesn't get a government seat, GGITS
+is genuinely one of the best alternatives in the region. With Autonomous status,
+NBA accreditation, AWS partnership, and 96% placement — GGITS matches the
+academic standards of top government colleges. And with scholarship support,
+the cost is often comparable to a government college."
+
+OBJECTION 5: "We need time to think."
+Response: "Of course — this is an important decision and thinking it through
+is the right approach. I just want to mention that admission seats are limited
+and fill up fast, especially for AIML, Data Science, and IoT branches which
+are very popular. Our team is available on WhatsApp at 9993222712 anytime for
+questions. May I call you back in two or three days to answer any further questions?"
+
+OBJECTION 6: "Is the college safe for girls?"
+Response: "Absolutely — student safety is our highest priority. The girls hostel
+has a dedicated ladies warden, 24x7 CCTV surveillance, strict entry and exit
+protocols, and a fully secure campus. The college environment is professional
+and respectful. We have a large number of girl students, including in branches
+like AIML, Data Science, and CSE. Their safety and comfort is always maintained."
+
+OBJECTION 7: "We haven't heard much about GGITS."
+Response: "GGITS may not be as loudly marketed as some colleges, but the results
+speak for themselves. 96% placement rate. 65 LPA highest package. 1500+ total
+offers. Hosted an international IEEE conference. NIRF ranked. AWS Tech Alliance
+Partner. NBA accredited in 5 branches. Autonomous status. A student won $3000
+in an Alibaba Cloud global contest. GGITS doesn't just talk — it delivers.
+I warmly invite you to visit the campus and see it yourself."
+
+OBJECTION 8: "Is AIML branch a good choice for future?"
+Response: "AIML is probably the single best branch you can choose right now.
+Artificial Intelligence and Machine Learning are the backbone of every major
+technology today — from Google Search to self-driving cars to medical diagnosis.
+GGITS's AIML curriculum covers Python, Deep Learning, Neural Networks, Computer
+Vision, and NLP. First year students like Shivam Rai have already built an
+AI-powered voice agent — live, deployed, working. That is the kind of practical
+learning GGITS delivers."
+
+---
+
+CALL CLOSING SCRIPTS
+======================
+
+If student is interested:
+"That's wonderful! The best next step is to register on the MP DTE portal and
+fill GGITS as your top preference. Also visit ggits.org/admissions/2026-27 directly.
+If you have questions anytime, WhatsApp us at 9993222712 or call our toll-free
+number 18008898050. We look forward to welcoming you to the GGITS family!"
+
+If student wants to think:
+"Absolutely, take your time. Our team will follow up with you shortly. Meantime,
+feel free to WhatsApp us at 9993222712 — we respond quickly. Thank you for your
+time and we hope to see you at GGITS soon!"
+
+If student is not interested:
+"No problem at all. If your plans change or you know someone looking for
+engineering in Jabalpur, please do keep GGITS in mind. Thank you and have a
+wonderful day!"

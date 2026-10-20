@@ -1,0 +1,112 @@
+COURSES AND ADMISSION INFORMATION
+===================================
+
+UNDERGRADUATE PROGRAMS (B.Tech - 4 Years)
+-------------------------------------------
+1. Computer Science and Engineering (CSE)
+   - Seats: 120
+   - Key Subjects: Programming, Data Structures, AI, Machine Learning, Databases, Networks
+   - Career Options: Software Developer, Data Analyst, System Architect, AI Engineer
+
+2. Electronics and Communication Engineering (EC)
+   - Seats: 60
+   - Key Subjects: Circuit Design, VLSI, Signal Processing, Embedded Systems, IoT
+   - Career Options: Electronics Engineer, Telecom Engineer, VLSI Designer
+
+3. Mechanical Engineering (ME)
+   - Seats: 60
+   - Key Subjects: Thermodynamics, Manufacturing, CAD/CAM, Robotics, Fluid Mechanics
+   - Career Options: Mechanical Engineer, Design Engineer, Production Manager
+
+4. Civil Engineering (CE)
+   - Seats: 60
+   - Key Subjects: Structural Engineering, Construction Management, Surveying, RCC Design
+   - Career Options: Civil Engineer, Site Engineer, Project Manager
+
+5. Electrical Engineering (EE)
+   - Seats: 60
+   - Key Subjects: Power Systems, Control Systems, Electrical Machines, Power Electronics
+   - Career Options: Electrical Engineer, Power Systems Engineer, Automation Engineer
+
+6. Information Technology (IT)
+   - Seats: 60
+   - Key Subjects: Web Development, Cyber Security, Cloud Computing, Software Engineering
+   - Career Options: IT Consultant, Full-Stack Developer, Cyber Security Analyst
+
+POSTGRADUATE PROGRAMS (M.Tech - 2 Years)
+------------------------------------------
+1. Computer Science and Engineering
+2. Digital Communication
+(Subject to availability - confirm with admission office)
+
+MBA PROGRAM (2 Years)
+-----------------------
+- Specializations: Marketing, Finance, Human Resource Management
+- Eligibility: Graduation in any discipline with minimum 50% marks
+
+DIPLOMA PROGRAMS
+-----------------
+- Available in select engineering branches
+- Duration: 3 years
+- Lateral entry available for diploma holders into B.Tech second year
+
+ADMISSION PROCESS
+------------------
+
+Step 1: Eligibility Check
+- For B.Tech: Must have passed 10+2 (Class 12) with Physics, Chemistry, Mathematics
+- Minimum aggregate: 45% marks (40% for SC/ST candidates)
+- Must have a valid JEE Main score (mandatory for RGPV-affiliated admissions)
+- OR valid MP state DTE counselling rank
+
+Step 2: Apply
+- Register on the MP DTE portal (dte.mponline.gov.in)
+- Fill the application form with personal, academic, and category details
+- Upload required documents
+- Pay the application fee online
+
+Step 3: Counselling
+- MP DTE conducts centralized online counselling
+- Seat allotment based on JEE Main rank and choices filled
+- Multiple rounds of counselling: Round 1, Round 2, Mop-Up Round
+
+Step 4: Document Verification and Admission
+- Report to the college on allotment letter date
+- Submit original documents for verification
+- Pay the first semester fee to confirm admission
+
+IMPORTANT ADMISSION DATES (Typical Year - Confirm Current Year Dates)
+-----------------------------------------------------------------------
+- JEE Main Exam: January and April (National Testing Agency)
+- MP DTE Registration: May to June
+- Counselling Rounds: July to August
+- Classes Begin: August/September
+
+FEES STRUCTURE (Approximate - Confirm with Admission Office)
+-------------------------------------------------------------
+- B.Tech Annual Tuition Fee: Approximately Rs. 60,000 to Rs. 80,000 per year
+- Hostel Fee: Approximately Rs. 40,000 to Rs. 60,000 per year (food included)
+- Development Fee and Other Charges: As per RGPV norms
+- Scholarship: Government scholarships available for SC/ST/OBC/EWS categories
+- Merit Scholarship: Available for top rankers
+
+DOCUMENTS REQUIRED AT ADMISSION
+---------------------------------
+1. Class 10 Marksheet and Certificate
+2. Class 12 Marksheet and Certificate
+3. JEE Main Scorecard
+4. MP DTE Allotment Letter
+5. Category Certificate (if applicable - SC/ST/OBC/EWS)
+6. Domicile Certificate (for MP quota)
+7. Passport Size Photographs (8 copies)
+8. Aadhar Card
+9. Transfer Certificate from previous school/college
+10. Migration Certificate (if from another board)
+11. Character Certificate
+
+LATERAL ENTRY ADMISSION (For Diploma Holders)
+----------------------------------------------
+- Direct entry into B.Tech Second Year
+- Eligibility: Diploma in Engineering with minimum 45% marks
+- Through MP DTE Lateral Entry Counselling
+- Seats: 10% supernumerary over approved intake
